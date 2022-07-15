@@ -3,17 +3,6 @@ function oui() {
 	let resultat=document.querySelector("#resultat");
 	resultat.innerHTML="Vous etes gay";
 }
-function non() {
-	if (x==1) {
-		let resultat=document.querySelector("#resultat");
-		resultat.innerHTML="Vous etes gay";
-	}
-	if (x==0) {
-		let oui=document.querySelector("#test");
-		oui.innerHTML="OUI";
-		x=1;
-	}
-}
 function non_survol() {
 	if (x==0) {
 	let oui=document.querySelector("#test");
